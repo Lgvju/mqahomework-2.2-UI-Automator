@@ -1,0 +1,160 @@
+Run reactivecircus/android-emulator-runner@v2
+Configure emulator
+Install Android SDK
+Launch Emulator
+/bin/sh -c ./gradlew connectedCheck
+Downloading https://services.gradle.org/distributions/gradle-7.3.3-all.zip
+WARNING | /etc/localtime does not point to zoneinfo-compatible timezone name
+INFO    | Boot completed in 151869 ms
+INFO    | Increasing screen off timeout, logcat buffer size to 2M.
+.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /Users/runner/.gradle/wrapper/dists/gradle-7.3.3-all/24jtidgpvcb7cl5d8sk97o24hc/gradle-7.3.3-all.zip to /Users/runner/.gradle/wrapper/dists/gradle-7.3.3-all/24jtidgpvcb7cl5d8sk97o24hc
+Set executable permissions for: /Users/runner/.gradle/wrapper/dists/gradle-7.3.3-all/24jtidgpvcb7cl5d8sk97o24hc/gradle-7.3.3/bin/gradle
+
+Welcome to Gradle 7.3.3!
+
+Here are the highlights of this release:
+ - Easily declare new test suites in Java projects
+ - Support for Java 17
+ - Support for Scala 3
+
+For more details see https://docs.gradle.org/7.3.3/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+Checking the license for package Android SDK Build-Tools 30.0.3 in /Users/runner/Library/Android/sdk/licenses
+License for package Android SDK Build-Tools 30.0.3 accepted.
+Preparing "Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)".
+"Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)" ready.
+Installing Android SDK Build-Tools 30.0.3 in /Users/runner/Library/Android/sdk/build-tools/30.0.3
+"Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)" complete.
+"Install Android SDK Build-Tools 30.0.3 (revision: 30.0.3)" finished.
+Checking the license for package Android SDK Platform 32 in /Users/runner/Library/Android/sdk/licenses
+License for package Android SDK Platform 32 accepted.
+Preparing "Install Android SDK Platform 32 (revision: 1)".
+"Install Android SDK Platform 32 (revision: 1)" ready.
+Installing Android SDK Platform 32 in /Users/runner/Library/Android/sdk/platforms/android-32
+"Install Android SDK Platform 32 (revision: 1)" complete.
+"Install Android SDK Platform 32 (revision: 1)" finished.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:generateDebugBuildConfig
+> Task :app:checkDebugAarMetadata
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:processDebugMainManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:compileDebugAndroidTestAidl NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :app:dataBindingMergeDependencyArtifactsDebugAndroidTest
+> Task :app:dataBindingMergeGenClassesDebugAndroidTest
+> Task :app:processDebugAndroidTestManifest
+> Task :app:compileDebugAndroidTestRenderscript NO-SOURCE
+> Task :app:generateDebugAndroidTestResValues
+> Task :app:generateDebugAndroidTestResources
+> Task :app:mergeDebugAndroidTestResources
+> Task :app:dataBindingGenBaseClassesDebugAndroidTest
+> Task :app:generateDebugAndroidTestBuildConfig
+> Task :app:checkDebugAndroidTestAarMetadata
+> Task :app:processDebugManifestForPackage
+> Task :app:javaPreCompileDebugAndroidTest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:processDebugAndroidTestResources
+> Task :app:processDebugResources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :app:compileDebugKotlin
+> Task :app:mergeExtDexDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:bundleDebugClasses
+> Task :app:mergeLibDexDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:mergeDebugAndroidTestShaders
+> Task :app:compileDebugAndroidTestShaders NO-SOURCE
+> Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeDebugAndroidTestAssets
+> Task :app:compressDebugAndroidTestAssets
+> Task :app:processDebugAndroidTestJavaRes NO-SOURCE
+> Task :app:mergeDebugAndroidTestJniLibFolders
+> Task :app:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:checkDebugAndroidTestDuplicateClasses
+> Task :app:desugarDebugAndroidTestFileDependencies
+> Task :app:compileDebugAndroidTestKotlin
+> Task :app:mergeExtDexDebugAndroidTest
+> Task :app:compileDebugAndroidTestJavaWithJavac
+> Task :app:mergeLibDexDebugAndroidTest
+> Task :app:dexBuilderDebugAndroidTest
+> Task :app:validateSigningDebugAndroidTest
+> Task :app:writeDebugAndroidTestSigningConfigVersions
+> Task :app:packageDebug
+> Task :app:mergeProjectDexDebugAndroidTest
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:mergeDebugAndroidTestJavaResource
+> Task :app:packageDebugAndroidTest
+> Task :app:createDebugAndroidTestApkListingFileRedirect
+[DDMLIB]: An unexpected packet was received before the handshake.
+
+> Task :app:connectedDebugAndroidTest
+Starting 4 tests on test(AVD) - 10
+
+ru.netology.testing.uiautomator.ChangeTextTest > testNewActivity[test(AVD) - 10] FAILED 
+	java.lang.NullPointerException: Attempt to invoke virtual method 'void androidx.test.uiautomator.UiObject2.setText(java.lang.String)' on a null object reference
+	at ru.netology.testing.uiautomator.ChangeTextTest.testNewActivity(ChangeTextTest.kt:63)
+Tests on test(AVD) - 10 failed: There was 1 failure(s).
+Sep 09, 2024 4:36:19 PM com.google.testing.platform.RunnerImpl$Companion summarizeAndLogTestResult
+SEVERE: Execute ru.netology.testing.uiautomator.ChangeTextTest.testNewActivity: FAILED
+java.lang.NullPointerException: java.lang.NullPointerException: Attempt to invoke virtual method 'void androidx.test.uiautomator.UiObject2.setText(java.lang.String)' on a null object reference
+at ru.netology.testing.uiautomator.ChangeTextTest.testNewActivity(ChangeTextTest.kt:63)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void androidx.test.uiautomator.UiObject2.setText(java.lang.String)' on a null object reference
+at ru.netology.testing.uiautomator.ChangeTextTest.testNewActivity(ChangeTextTest.kt:63)
+
+
+Test results saved as file:/Users/runner/work/mqahomework-2.2-UI-Automator/mqahomework-2.2-UI-Automator/app/build/outputs/androidTest-results/connected/test(AVD)%20-%2010/test-result.pb. Inspect these results in Android Studio by selecting Run > Import Tests From File from the menu bar and importing test-result.pb.
+
+> Task :app:connectedDebugAndroidTest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:connectedDebugAndroidTest'.
+> There were failing tests. See the report at: file:///Users/runner/work/mqahomework-2.2-UI-Automator/mqahomework-2.2-UI-Automator/app/build/reports/androidTests/connected/index.html
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m 23s
+61 actionable tasks: 61 executed
+Error: The process '/bin/sh' failed with exit code 1
+Terminate Emulator
+  /Users/runner/Library/Android/sdk/platform-tools/adb -s emulator-5554 emu kill
+  OK: killing emulator, bye bye
+  OK
+INFO    | Wait for emulator (pid 4103) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+INFO    | Discarding the changed state: command-line flag
+WARNING | Discarding the changed state (command-line flag).
+WARNING | Emulator client has not yet been configured.. Call configure me first!
