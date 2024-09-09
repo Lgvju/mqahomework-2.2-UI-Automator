@@ -64,7 +64,9 @@ class ChangeTextTest {
         device.findObject(By.res(packageName, "buttonActivity")).click()
         device.wait(Until.hasObject(By.pkg(packageName)), TIMEOUT)
 
-        val result = device.findObject(By.res(packageName, "text")) .text
+        val result = device.findObject(
+            UiSelector().resourceId("ru.netology.testing.uiautomator:id/text")
+        ).text
         assertEquals(textToSet , result)
     }
 
